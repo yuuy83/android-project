@@ -3,6 +3,7 @@ import {View, Text, StyleSheet, ScrollView, Button, Alert} from 'react-native';
 import data from './Data';
 import Square from './Square';
 import styles from './style';
+
 const App = () => {
   return (
     <ScrollView style={styles.container}>
@@ -12,3 +13,4 @@ const App = () => {
     </ScrollView>
   );
 };
+export default App
